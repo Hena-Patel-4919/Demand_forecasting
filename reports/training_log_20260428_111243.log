@@ -1,0 +1,22 @@
+2026-04-28 11:12:43,067 - INFO - ===== MODEL TRAINING STARTED =====
+2026-04-28 11:12:43,249 - INFO - Data Loaded: (72500, 31)
+2026-04-28 11:12:43,265 - INFO - Train size: (58000, 28)
+2026-04-28 11:12:43,265 - INFO - Test size: (14500, 28)
+2026-04-28 11:12:48,507 - INFO - Model training completed
+2026-04-28 11:12:48,531 - INFO - Model Performance:
+2026-04-28 11:12:48,531 - INFO - MAE: 2.2414326667785645
+2026-04-28 11:12:48,531 - INFO - RMSE: 2.9717830222544617
+2026-04-28 11:12:48,594 - INFO - Model saved at: C:\Users\Krish Patel\OneDrive\Desktop\M_tech\demand\src\models\xgboost_model.pkl
+2026-04-28 11:12:48,600 - INFO - Target stats:
+2026-04-28 11:12:48,602 - INFO - Target stats:
+count    72500.000000
+mean       136.565931
+std        108.939474
+min          0.000000
+25%         49.000000
+50%        108.000000
+75%        203.000000
+max        499.000000
+Name: Units Sold, dtype: float64
+2026-04-28 11:12:48,854 - INFO - Feature importance plot saved at: C:\Users\Krish Patel\OneDrive\Desktop\M_tech\demand\reports\feature_importance.png
+2026-04-28 11:12:48,854 - INFO - ===== TRAINING COMPLETED =====
